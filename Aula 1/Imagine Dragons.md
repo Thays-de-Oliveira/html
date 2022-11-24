@@ -1,8 +1,7 @@
 # Enemy
 ## Imagine Dragons & JID
 
-
-![music](https://akamai.sscdn.co/uploadfile/letras/albuns/d/0/2/c/01656673081.jpg)
+![music](https://i.im.ge/2022/11/24/SL8kwh.Sem-titulo.png)![music](https://i.im.ge/2022/11/24/SL8kwh.Sem-titulo.png)
 
 
 | Enemy (feat. J.I.D)  | Inimigo (part. J.I.D)   |
