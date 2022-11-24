@@ -1,0 +1,43 @@
+body{
+	background-color: #191817;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal {
+	width: 900px;
+} 
+
+#Menu {
+	background: #191817;
+	padding: 18px;
+}
+
+#conteudo {
+	background: #191817;
+	padding: 10px;
+}
+
+a {
+	color: #D71674 ;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.centralizar {
+	text-align: center;
+}
+
+h1 {
+	color: #D71674;
+	font-size: 1.2em;
+}
+
+h4 {
+	color: white;
+}
+
+p {
+	color: white;
+	font-size: 1.2em;
+}
