@@ -1,0 +1,48 @@
+body {
+    background: url(fundo1.jpg);
+    background-attachment: fixed;
+}
+
+#principal {
+	width: 512px;
+	padding: 20px;
+    margin: 0 auto;
+	text-align: left;
+    border-style: outset;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.808);
+}
+
+#conteiner {
+    margin: 0 auto;
+	text-align: left;
+    margin-top: 10px;
+}
+
+input[type=text]{
+    width: 99%;
+	padding: 1px;
+    background: rgba(215, 164, 238, 0.253);
+	border-color: #940394;
+}
+
+input[type=email]{
+    width: 99%;
+	padding: 1px;
+    background: rgb(215 164 238 / 48%);
+	border-color: #5a0468;
+}
+
+input[type=submit]{
+    width: 99%;
+	padding: 1px;
+    background: rgb(215 164 238 / 48%);
+	border-color: #5a0468;
+}
+
+#paises, #uf {
+    width: 99%;
+	padding: 1px;
+    background: rgb(215 164 238 / 48%);
+	border-color: #5a0468;
+}

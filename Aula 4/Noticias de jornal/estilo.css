@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(199, 187, 187);
+}
+
+div {
+    width: 512px;
+    height: 512px;
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+}
+
+#conteudo1{
+    padding: 50px;
+}
+
+#conteudo2{
+    padding: 50px;
+}
+
+h1 {
+    color: rgb(71, 4, 4);
+}
+
+span {
+    background-color: rgba(71, 0, 138, 0.514);
+}
+
+blockquote {
+    background-color: rgba(71, 0, 138, 0.514);
+}
+
+a {
+    color: rgb(3, 68, 3);
+}
+

@@ -1,0 +1,25 @@
+body {
+	background: url(ma2.jpg) repeat-y;
+}
+
+#bloco1, #bloco2, #bloco3, #bloco4, #bloco5 {
+	width: 512px;
+	padding: 20px;
+    margin: 0 auto;
+	text-align: left;
+    border-style: outset;
+    margin-top: 10px;
+    background-color: rgba(82, 2, 119, 0.253);
+}
+
+#botao input[type=submit]{
+    display: block;
+    width: 200px;
+	padding: 10px;
+    background: rgba(82, 2, 119, 0.253);
+	border-style: outset;
+	border-color: #eee7ee;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
