@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de HTML</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div id="title">
+        <h1>Dicas de códigos HTML para ajudar na sua produtividade!</h1>
+    </div>
+    <div id="principal">
+        <h4>Dica 1:</h4>
+        <p>Sabe aquele projetinho que você precisa fazer colocando as UF de todos os estados?</p>
+        <p>Então, para fazermos isso precisamos usar o elemento <strong>&lt;select&gt;</strong></p>
+        <p>Ela é utilizada em conjunto com a tag HTML <strong> &lt;select&gt; option</strong>, que é responsável por armazenar o valor correspondente do item, que deve ser indicado no atributo <strong>value</strong>, além de exibir o valor alternativo, que é o texto exibido na tela para o melhor entendimento pela pessoa usuária.</p>
+        <p>É importante dizer que o conteúdo indicado no atributo <strong>value</strong> corresponde a um valor resumido em relação ao que é apresentado na listagem, e pode ser numérico ou textual. Isso porque esse conteúdo é utilizado por meio do código da aplicação, enquanto o texto alternativo é uma versão mais amigável do valor para ser mostrado às pessoas usuárias.</p>
+        <p>Agora que ja sabemos disso e dica boa é dica compartilha, abaixo ta o código completo pra ajudar você, já sabe né, Ctrl C, Ctrl V.&#9996;</p>
+            <div class="dica">
+            <code>
+            &lt;select name="estados-brasil"&gt;
+                &lt;option value="AC"&gt;AC&lt;/option&gt;
+                &lt;option value="AL"&gt;AL&lt;/option&gt;
+                &lt;option value="AP"&gt;AP&lt;/option&gt;
+                &lt;option value="AM"&gt;AM&lt;/option&gt;
+                &lt;option value="BA"&gt;BA&lt;/option&gt;
+                &lt;option value="CE"&gt;CE&lt;/option&gt;
+                &lt;option value="DF"&gt;DF&lt;/option&gt;
+                &lt;option value="ES"&gt;ES&lt;/option&gt;
+                &lt;option value="GO"&gt;GO&lt;/option&gt;
+                &lt;option value="MA"&gt;MA&lt;/option&gt;
+                &lt;option value="MT"&gt;MT&lt;/option&gt;
+                &lt;option value="MS"&gt;MS&lt;/option&gt;
+                &lt;option value="MG"&gt;MG&lt;/option&gt;
+                &lt;option value="PA"&gt;PA&lt;/option&gt;
+                &lt;option value="PB"&gt;PB&lt;/option&gt;
+                &lt;option value="PR"&gt;PR&lt;/option&gt;
+                &lt;option value="PE"&gt;PE&lt;/option&gt;
+                &lt;option value="PI"&gt;PI&lt;/option&gt;
+                &lt;option value="RJ"&gt;RJ&lt;/option&gt;
+                &lt;option value="RN"&gt;RN&lt;/option&gt;
+                &lt;option value="RS"&gt;RS&lt;/option&gt;
+                &lt;option value="RO"&gt;RO&lt;/option&gt;
+                &lt;option value="RR"&gt;RR&lt;/option&gt;
+                &lt;option value="SC"&gt;SC&lt;/option&gt;
+                &lt;option value="SP"&gt;SP&lt;/option&gt;
+                &lt;option value="SE"&gt;SE&lt;/option&gt;
+                &lt;option value="TO"&gt;TO&lt;/option&gt;
+            &lt;/select&gt;
+            </code>
+            </div>
+        <h4>Dica 2:</h4>
+        <p>Quem nunca ficou com aquela duvida de que bordar usar, ou já se esqueceu o que aquele elemento css fazia?</p>
+        <p>To aqui para te dar uma ajudinha!</p>
+        <p>As propriedades para as bordas a seguir, definem as características das quatro bordas de um elemento HTML:</p>
+            <div class="dica">
+                <code>
+                    border-width:..........define a espessura da borda
+                    border-style:..........define o estilo da borda
+                    border-color:..........define a cor da borda
+                   
+                    border-top-width:......define a espessura da borda superior
+                    border-top-style:......define o estilo da borda superior
+                    border-top-color:......define a cor da borda superior
+                   
+                    border-right-width:....define a espessura da borda direita
+                    border-right-style:....define a estilo da borda direita
+                    border-right-color:....define a cor da borda direita
+                   
+                    border-bottom-width:...define a espessura da borda inferior
+                    border-bottom-style:...define o estilo da borda inferior
+                    border-bottom-color:...define a cor da borda inferior
+                   
+                    border-left-width:.....define a espessura da borda esquerda
+                    border-left-style:.....define o estilo da borda esquerda
+                    border-left-color:.....define a cor da borda esquerda
+                   
+                    border-top:............maneira abreviada para todas as propriedades da borda superior
+                    border-right:..........maneira abreviada para todas as propriedades da borda direita
+                        
+                    border-bottom:.........maneira abreviada para todas as propriedades da borda inferior
+                       
+                    border-left:...........maneira abreviada para todas as propriedades da borda esquerda
+                       
+                    border:................maneira abreviada para todas as quatro bordas
+                   
+                </code>
+            </div>
+        <h4>Dica 3:</h4>
+        <p>As vezes acontece da gente criar um formulario e por algum motivo termos que desativar alguns campos de entrada, e a dica de hoje é essa, como fazer isso?</p>
+        <p>Usaremos o atributo <strong>disabled</strong> ele especifica que um campo de entrada deve ser desabilitado.</p>
+        <p>E como usar ele? Simples, segue o código a seguir!</p>
+            <div class="dica">
+                    <code>
+                        &lt;form&gt;
+                        &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;
+                        &lt;input type="text" id="fname" name="fname" value="John" disabled&gt;&lt;br&gt;
+                        &lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;
+                        &lt;input type="text" id="lname" name="lname" value="Doe"&gt;
+                        &lt;/form&gt;
+                    </code>
+            </div>
+    </div>
+            
+
+    
+</body>
+</html>
