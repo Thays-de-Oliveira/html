@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/fundo1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fc007e;
+}
+
+header {
+	padding:15px 0 ;
+	height: 55px;
+
+}
+
+nav ul {
+	list-style: none;
+	margin: 20px;
+	float: right;
+
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	border-bottom: #535858;
+}
+
+main {
+    width: 1080px;
+	margin: 0 auto;
+}
+
+#titulo h1 {
+    float: left;
+    color: aliceblue;
+    display: block;
+    text-align: center;
+}
+
+
+h2{
+    float: left;
+    color: aliceblue;
+    display: block;
+    text-align: left;
+    margin-left: 20pxpx;
+    border-bottom: solid;
+    margin-top: 60px;
+}
+
+
+#gif img{
+    display: block;
+    width: 270px;
+    height: 270px;
+    border-radius: 300px;
+    margin-top: 80px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#perfil img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    margin-left: 67%;
+    margin-top: 75px;
+}
+
+footer {
+	clear: both;
+	padding:20px 0 30px 0 ;
+	text-align: center;
+}
+
+footer a{
+	padding: 2px 10px;
+}
+
+p {
+    color: white;
+}
+ 
+
+#dados {
+    display: block;
+    width: 330px;
+    height: 100px;
+    margin-top: -180px;
+    color: white;
+    margin-left: 180px;
+    clear: both;
+}
+
+ul li {
+    padding: 5px;
+}
+
+#form {
+    display: block;
+    width: 60%;
+    height: 100px;
+    margin-top: 100px;
+    color: white;
+    margin-left: 180px;
+}
+
+#tab tr, th,td {
+    border: groove;
+    border-color: rgb(0, 206, 209);
+}
+
+#prof {
+    display: block;
+    width: 60%;
+    height: 100px;
+    margin-top: 100px;
+    color: white;
+    margin-left: 180px;
+    border-bottom: solid;
+    border-color: rgb(0, 206, 209);
+}
+
+ol li {
+    padding: 5px;
+}
+
+#interesse {
+    display: block;
+    width: 60%;
+    height: 100px;
+    margin-top: 100px;
+    color: white;
+    margin-left: 180px;
+}
+
+#day {
+    display: block;
+    width: 60%;
+    height: 100px;
+    margin-top: 190px;
+    color: white;
+    margin-left: 180px;
+}
+
+#estudando {
+    display: block;
+    width: 60%;
+    height: 100px;
+    margin-top: 130px;
+    color: white;
+    margin-left: 180px;
+}
+
+#evolução {
+    display: block;
+    width: 60%;
+    height: 120px;
+    margin-top: 100px;
+    color: white;
+    margin-left: 180px;
+    border-bottom: solid;
+    border-color: rgb(0, 206, 209);
+}
+
+dl, dt, dd {
+    padding: 5px;
+}
