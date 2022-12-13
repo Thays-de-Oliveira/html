@@ -1,0 +1,128 @@
+/* estrutura do site
+------------------------------------------ */
+body {
+	font: 12px "Lucida Grande","Lucida Sans Unicode", Arial, sans-serif;
+    background-image: url(https://ebaconline.com.br/upload/cms/VWXECrjyND6nCnxbBTLFa.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/*logo
+------------------------------------------ */
+#logo h1 {
+	float: left;
+    color: white;
+}
+
+/* barra de navegação
+------------------------------------------ */
+header {
+	padding:15px 0 ;
+	height: 55px;
+
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	float: right;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0f1b4d;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+	
+	background-color: #8d53ba;
+}
+
+/* principal
+------------------------------------------ */
+#conteudo {
+	width: 710px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+aside {
+	width: 350px;
+	float: right;
+	margin-bottom: 20px;
+    text-align: center;
+	display: block;
+}
+
+#tabela tr, th, td {
+	background-color: #8d53ba;
+}
+
+article#historia {
+	float: left;
+	width: 100%;
+	margin: 15px 0 0 37px;
+}
+
+h3 {
+	color: #ffffff;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+p {
+    text-transform: uppercase;
+	font-size: 1.0em;
+    color: #ffffff;
+}
+
+ol, li {
+	color: #ffffff;
+	padding: 5px;
+}
+
+.listaor {
+	margin-left: inherit;
+}
+
+#parag p {
+	width: 500px;
+}
+
+
+/* rodape
+------------------------------------------ */
+footer {
+	clear: both;
+	padding:20px 0 30px 0 ;
+	text-align: center;
+}
+
+footer a{
+	padding: 2px 10px;
+}
+
